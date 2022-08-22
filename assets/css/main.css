@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.cabecera {
+    /* top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 59px; */
+    text-align: left;
+    font: normal normal medium 50px/59px Roboto;
+    background: #000000;
+    text-align: center;
+    padding-top: 0;
+}
+.fondo {
+    /* top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px; */
+    opacity: 1;
+}
+.uno {
+    display: flow-root;
+    background-color: black;
+    padding-inline: 150pt;
+    padding-top: 40pt;
+    padding-bottom: 40pt;
+}
+.uno img {
+    margin-left: 10%;
+    float: right;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.texto-1 {
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.galeria-icon {
+    display: flex;
+    text-align: center;
+    background-color: #1E1A13;
+    padding-inline: 150pt;
+    padding-top: 40pt;
+    padding-bottom: 40pt; 
+}
+.caracteristicas {
+    text-align: center;
+    background-color: #1E1A13;
+    padding-top: 40pt;
+    padding-bottom: 10pt; 
+}
+.columna {
+    flex: auto;
+}
+.columna img {
+    width: 300pt;
+    height: 200pt;
+    padding: 10pt;
+    object-fit: cover;
+}
+.galeria-fotos {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    padding-inline: 100pt;
+    padding-top: 40pt;
+    padding-bottom: 40pt;
+}
+.piepagina {
+    text-align: center;
+    background-color: #1E1A13;
+    padding-inline: 150pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
